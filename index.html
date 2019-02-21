@@ -8,10 +8,39 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Welcome</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+	<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light" style="background-image: url('img/gremlin.jpg');">
+ 	 <div class="col-md-5 p-lg-5 mx-auto my-5 shadow-sm">
+	    <h1 class="display-4 font-weight-normal text-primary">Dejanos tus datos por favor!</h1>
+  	    <p class="lead font-weight-normal text-danger">Tus datos serán utilizados como se nos antoje.</p>
+               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+               Ingresar Datos
+               </button>
+               <!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        Era broma!
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+ 	 </div>
+	  <div class="product-device shadow-sm d-none d-md-block"></div>
+	  <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+	</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
